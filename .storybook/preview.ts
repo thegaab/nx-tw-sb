@@ -1,14 +1,20 @@
-import type { Preview } from '@storybook/react'
+import '../app/globals.css';
 
-const preview: Preview = {
+const previewConfig = {
   parameters: {
+    backgrounds: {
+      default: 'dark',
+    },
+    actions: {
+      handles: ['onClick', 'onSubmit'],
+    },
     controls: {
       matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
+        color: /(background|color)$/i,
+        date: /Date$/,
       },
     },
   },
 };
 
-export default preview;
+export default previewConfig;

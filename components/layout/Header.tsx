@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaInstagram, FaWhatsapp, FaPhone } from 'react-icons/fa';
 
-import logo2 from '@/public/assets/logo-ia.png';
+import logo2 from '@/public/assets/logo-original.png';
 
 
 const Header = () => {

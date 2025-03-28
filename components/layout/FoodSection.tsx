@@ -44,16 +44,16 @@ const FoodSection = () => {
                   <Image
                     src={food.image}
                     alt={food.name}
-                    width={500}
-                    height={300}
-                    className="rounded-lg object-cover w-full h-64 md:h-80"
+                    width={300}
+                    height={500}
+                    className="rounded-lg object-contain w-full h-auto max-h-[500px] md:max-h-[600px]"
                   />
                 ) : food.video ? (
                   <video
                     autoPlay
                     loop
                     muted
-                    className="rounded-lg object-cover w-full h-64 md:h-80"
+                    className="rounded-lg object-contain w-full h-auto max-h-[500px] md:max-h-[600px]"
                   >
                     <source src={food.video} type="video/mp4" />
                     Seu navegador não suporta o elemento de vídeo.

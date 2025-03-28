@@ -4,7 +4,7 @@ export const spaces = [
     id: 1,
     name: "Área de cerimônias",
     nameJapanese: "セレモニーエリア",
-    image: "/assets/cerimonias.png",
+    video: "/assets/cerimonia.mp4",
   },
   {
     id: 2,

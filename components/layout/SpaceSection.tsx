@@ -28,15 +28,31 @@ const SpaceSection = () => {
                   <p className="text-lg md:text-xl font-sans text-gray-300">{space.nameJapanese}</p>
                 </div>
 
-                {/* Imagem */}
+                {/* Imagem ou Vídeo */}
                 <div className="w-full md:w-1/2 h-[300px] md:h-[400px]">
-                  <Image
-                    src={space.image}
-                    alt={space.name}
-                    width={600}
-                    height={400}
-                    className="w-full h-full object-cover"
-                  />
+                  {space.image ? (
+                    <Image
+                      src={space.image}
+                      alt={space.name}
+                      width={600}
+                      height={400}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : space.video ? (
+                    <video
+                      autoPlay
+                      loop
+                      muted
+                      className="w-full h-full object-cover"
+                    >
+                      <source src={space.video} type="video/mp4" />
+                      Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                  ) : (
+                    <div className="w-full h-full bg-gray-800 flex items-center justify-center">
+                      <span className="text-gray-400">Mídia não disponível</span>
+                    </div>
+                  )}
                 </div>
               </div>
             );

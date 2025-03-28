@@ -1,4 +1,3 @@
-// components/Header.js
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaInstagram, FaWhatsapp, FaPhone } from 'react-icons/fa';
@@ -9,9 +8,8 @@ import logo2 from '@/public/assets/logo-original.png';
 const Header = () => {
   return (
     <header className="relative h-screen">
-      {/* Imagem de fundo com next/image */}
       <Image
-        src="/assets/background.png" // Caminho direto
+        src="/assets/background.png" 
         alt="Background"
         layout="fill"
         objectFit="cover"

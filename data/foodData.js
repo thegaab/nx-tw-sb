@@ -13,7 +13,7 @@ export const foodTypes = [
     id: 2,
     name: "Japonesa",
     icone: "/assets/comida-japonesa1.png",
-    image: "/assets/japonesa.jpg",
+    video: "/assets/japonesa.mp4",
     description:
       "Sushis, sashimis e temakis feitos com peixes frescos e acompanhamentos autênticos, trazendo o melhor da culinária japonesa para o seu evento.",
   },
@@ -21,7 +21,7 @@ export const foodTypes = [
     id: 3,
     name: "Churrasco",
     icone: "/assets/churrasco1.png",
-    image: "/assets/churrasco.jpg",
+    video: "/assets/churrasco.mp4",
     description:
       "Carnes suculentas grelhadas na hora, com opções de picanha, fraldinha e linguiça, acompanhadas de molhos e guarnições deliciosas.",
   },
@@ -45,7 +45,7 @@ export const foodTypes = [
     id: 6,
     name: "Saladas",
     icone: "/assets/salada1.png",
-    image: "/assets/saladas.jpg",
+    video: "/assets/petiscos.mp4",
     description:
       "Opções leves e frescas com saladas verdes, grãos e proteínas, perfeitas para quem busca uma refeição saudável e saborosa.",
   },

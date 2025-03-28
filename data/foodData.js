@@ -43,7 +43,7 @@ export const foodTypes = [
   },
   {
     id: 6,
-    name: "Saladas",
+    name: "Saladas e Petiscos",
     icone: "/assets/salada1.png",
     video: "/assets/petiscos.mp4",
     description:
@@ -56,13 +56,5 @@ export const foodTypes = [
     image: "/assets/doces.jpg",
     description:
       "Sobremesas irresistíveis como brigadeiros gourmet, tortas e pavês, para adoçar o seu evento com um toque especial.",
-  },
-  {
-    id: 8,
-    name: "Aperitivos",
-    icone: "/assets/aperitivo1.png",
-    image: "/assets/aperitivos.jpg",
-    description:
-      "Entradas deliciosas como canapés, brusquetas e mini quiches, perfeitas para abrir o apetite dos seus convidados.",
   },
 ];
